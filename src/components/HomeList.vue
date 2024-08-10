@@ -21,10 +21,10 @@
                     <div class="list-header-arrow" style=" margin-right: 10px; font-weight: bolder; color: rgb(207, 136, 42);">V</div>
                 </div>
             </div>
-            <div>
-                <div>All</div>
-                <div>MUsic</div>
-                <div>Podcast</div>
+            <div style="display: flex; gap: 10px; margin-top: 20px;">
+                <div class="btn-all">All</div>
+                <div class="btn-music">Music</div>
+                <div class="btn-podcast">Podcast</div>
             </div>
         </div>
     </div>
@@ -70,5 +70,35 @@
     font-weight: bolder;
     color: white;
     margin-right: 10px;
+    }
+    .btn-all{
+        text-align: center;
+        padding: 8px;
+        border-radius: 16px;
+        background: white;
+        color: black;
+        width: 45px;
+        height: 33px;
+        line-height: 15px;
+    }
+    .btn-music{
+        text-align: center;
+        padding: 8px;
+        border-radius: 16px;
+        background-color: #343434;
+        color: white;
+        width: 71px;
+        height: 33px;
+        line-height: 15px;
+    }
+    .btn-podcast{
+        text-align: center;
+        padding: 8px;
+        border-radius: 16px;
+        background-color: #343434;
+        color: white;
+        width: 80px;
+        height: 33px;
+        line-height: 15px;
     }
 </style>
