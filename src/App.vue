@@ -5,7 +5,7 @@ import SideMenu from './views/SideMenu.vue'
 
 <template>
  <div class="container-fluid"
- style="margin-top: -70px" 
+ style="margin-top: 10px" 
  >
   <div class="row">
     <div class="col-3">

@@ -2,7 +2,7 @@
 
     </script>
     <template>
-    <div>
+    <div style="position: fixed;">
         <div class="menu-top box">
         <div class="box-in-side">
             <div><p class="menu-text" style="color: aliceblue;"><i class="fa-solid fa-house menu-icon" ></i> Home</p></div>
@@ -84,11 +84,13 @@
         width: 300px;
         margin-bottom: 6px;
         font-size: larger;
+        margin-left: -5px;
     }
     .menu-bottom{
         height: 400px;
         width: 300px;
         font-size: larger;
+        margin-left: -5px;
     }
     .box-in-side{
     padding: 15px 0px 0px 26px;
